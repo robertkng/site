@@ -22,7 +22,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 h2 {
@@ -36,9 +36,12 @@ h2 {
 
 
 #icon {
-  height: 30px;
-  width: 30px;
+  left: 500px;
+  top: 0px;
+  height: 50px;
+  width: 50px;
   border-radius: 10%;
+  padding: 10px;
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
@@ -84,8 +87,9 @@ img {
   /*border: solid black 30px;*/
   background-color: white;
   position: relative;
-  left: 400px;
-  top: -200px;
+  left: 470px;
+  top: 50px;
+  /*background-attachment: fixed;*/
 }
 
 #projects {
@@ -102,3 +106,5 @@ img, a {
 
 
 /*@media query*/
+
+

@@ -1,16 +1,7 @@
-// $(window).scroll(function() {
-//   var upScroll = $(this).scrollTop();
-//   $('#icon').css({
-//     'transform' : 'translate(0px, ' + upScroll /4 + '%)'
-
-//   });
-// });
-
-
 $(document).ready(function() {
-  const btt = $('.top');
+  const scrollUp = $('.top');
 
-  btt.on('click', function(e) {
+  scrollUp.on('click', function(e) {
     $('html, body').animate({
       scrollTop: 0
     }, 300);
@@ -23,11 +14,35 @@ $(document).ready(function() {
           top = self.scrollTop();
 
           if (top > height) {
-            if(!btt.is(':visible')) {
-              btt.show();
+            if(!scrollUp.is(':visible')) {
+              scrollUp.show();
             }
           } else {
-            btt.hide();
+            scrollUp.hide();
           }
   });
+
+  const wScroll = $(this).scrollTop();
+
+  if(wScroll > $('.clothes-pics').offset().top - ($(window).height() / 1.2)) {
+    $('.clothes-pics figure').each(function(i) {
+
+      setTimeout(function() {
+      $('.clothes-pics figure').eq(i).addClass('is-showing');
+      }, 300 * (i+1));
+    });
+  }
+
+
+
+  //   var portfolio = $('#portfolio');
+
+  // portfolio.on('click', function(e) {
+  //   $('html, body').animate({
+  //     portfolio: 1000
+  //   }, 300);
+  //   e.preventDefault();
+  // });
+
+
 });

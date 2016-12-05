@@ -41,13 +41,12 @@ h5 {
 
 #icon {
   left: 500px;
-  top: -50px;
+  top: -75px;
   height: 50px;
   width: 50px;
   border-radius: 10%;
   padding: 10px;
   transform: translateZ(0);
-  /*box-shadow: 0 0 1px rgba(0, 0, 0, 0);*/
 }
 
 @keyframes pulse {
@@ -67,20 +66,28 @@ h5 {
 
 #icon:hover {
   animation: pulse;
-  /*-webkit-animation: pulse;*/
   animation-duration: 1s;
-  /*-webkit-animation-duration: 1s;*/
   animation-timing-function: linear;
-  /*-webkit-animation-timing-function: linear;*/
   animation-iteration-count: infinite;
-  /*-webkit-animation-iteration-count: infinite;*/
 }
 
-li, a, img {
+li, a {
+  font-size: 30px;
   display: inline;
-  padding: 1px;
+  padding: 10px;
   text-decoration: none;
 }
+
+#about {
+  position: absolute;
+  left: 870px;
+}
+
+#portfolio {
+  position: absolute;
+  left: 720px;
+}
+
 
 li a:hover {
   color: red;
@@ -88,7 +95,7 @@ li a:hover {
   transition-duration: 1s;
 }
 
-img {
+#project1, #project2, #project3 {
   /*border: solid black 30px;*/
   background-color: white;
   position: relative;
@@ -107,11 +114,7 @@ img {
   left: 200px;
 }
 
-/*
-img, a {
-  top: 100px;
-  left: 200px;
-}*/
+
 
 
 /*@media query*/

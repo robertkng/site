@@ -4,8 +4,76 @@ html {
   font-family: 'Ubuntu', sans-serif;
 }
 
+#nav {
+  position: fixed;
+  left: 10%;
+  background-color: gray;
+  opacity: .5;
+  /*width: 10000px;*/
+  height: 100px;
+  margin: 0;
+  padding: 0;
 
-body {
+}
+
+li, a {
+  position: fixed;
+  font-size: 30px;
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+  top: 40px;
+  left: 200px;
+}
+
+.icon {
+  top: 30px;
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+  padding: 10px;
+  transform: translateZ(0);
+}
+
+#github {
+  left: 800px;
+}
+
+#linkedin {
+  left: 850px;
+}
+
+#gmail {
+  left: 900px;
+}
+
+
+#petra {
+  /*position: fixed;*/
+  /*position: center;*/
+  height: 750px;
+  width: 500px;
+  left: 30%;
+  top: 300px
+  /*display: block;*/
+  /*margin: left;*/
+}
+
+#roys {
+  /*position: fixed;*/
+  /*position: center;*/
+  height: 500px;
+  width: 750px;
+  left: 20%;
+  /*display: block;*/
+  /*margin: left;*/
+}
+
+
+#travel {
+}
+
+/*body {
   text-align: center;
   background-image: url("./images/RoysPeak.jpg"), url("./images/Petra.jpg");
   background-repeat: no-repeat, no-repeat;
@@ -14,7 +82,7 @@ body {
   height: 2000px;
   margin: 10px;
   background-attachment: fixed;
-}
+}*/
 
 h1, h2, h3, h4 {
   color: rgba(2, 5, 128, 0.7);
@@ -39,15 +107,7 @@ h5 {
 }*/
 
 
-#icon {
-  left: 500px;
-  top: -75px;
-  height: 50px;
-  width: 50px;
-  border-radius: 10%;
-  padding: 10px;
-  transform: translateZ(0);
-}
+
 
 @keyframes pulse {
   25% {
@@ -64,19 +124,14 @@ h5 {
   }
 }
 
-#icon:hover {
+.icon:hover {
   animation: pulse;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
-li, a {
-  font-size: 30px;
-  display: inline;
-  padding: 10px;
-  text-decoration: none;
-}
+
 
 #about {
   position: absolute;
@@ -111,6 +166,11 @@ img {
   left: 0px;
   top: 1500px;
   opacity: .7;
+}
+
+#portfolio-section {
+  display: inline;
+}
 
 /*  opacity: 0;
   transform: translateX(-20px);
@@ -120,14 +180,13 @@ img {
   opacity: 1;
   transform: translateX(0px);*/
 
-}
 
 .top {
   display: none;
   position: fixed;
   bottom: 10px;
   background-color: cornflowerblue;
-  padding: -10px;
+  padding: -30px;
   color: #fff;
   left: 200px;
 }

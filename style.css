@@ -118,9 +118,9 @@ li a:hover {
 .group-projects a {
   height: 200px;
   width: 200px;
-  z-index: -1;
+  z-index: 7;
   position: relative;
-  /*top: -150px;*/
+  top: -150px;
 }
 
 #project3 {
@@ -128,7 +128,7 @@ li a:hover {
   width: 200px;
   left: 50px;
   top: -20px;
-  z-index: -1;
+  z-index: 7;
 }
 
 #roys {

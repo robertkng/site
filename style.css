@@ -32,6 +32,7 @@ li a:hover {
   font-size: 40px;
   transition-duration: 1s;
   z-index: 5;
+  box-shadow: 6px 21px 30px 0px rgba(0,0,0,0.75);
 }
 
 #portfolio {
@@ -41,18 +42,18 @@ li a:hover {
 }
 
 #github {
-  left: 730px;
+  left: 830px;
   top: 10px;
   z-index: 49;
 }
 
 #linkedin {
-  left: 800px;
+  left: 900px;
   top: 10px;
 }
 
 #gmail {
-  left: 870px;
+  left: 970px;
   top: 10px;
 }
 
@@ -60,8 +61,8 @@ li a:hover {
   top: 30px;
   height: 50px;
   width: 50px;
-  border-radius: 10%;
-  padding: 10px;
+  border-radius: 30%;
+  padding: 5px;
   transform: translateZ(0);
   z-index: 49;
 }
@@ -71,6 +72,7 @@ li a:hover {
   animation-duration: .75s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  box-shadow: 6px 21px 30px 0px rgba(0,0,0,0.75);
 }
 
 #petra {
@@ -88,7 +90,7 @@ li a:hover {
 }*/
 
 .project-section {
-  z-index: 1;
+  z-index: -1;
 }
 
 .individual-projects a {
@@ -96,46 +98,50 @@ li a:hover {
   width: 200px;
   z-index: 3;
   position: relative;
-  top: -200px;
+  top: -150px;
 }
 
 #project1 {
   height: 200px;
   width: 200px;
   left: 50px;
+  z-index: -1;
 }
 
 #project2 {
   height: 200px;
   width: 200px;
-  left: 350px;
+  left: 250px;
+  z-index: -1;
 }
 
 .group-projects a {
   height: 200px;
   width: 200px;
-  z-index: 3;
+  z-index: -1;
   position: relative;
-  top: -200px;
+  /*top: -150px;*/
 }
 
 #project3 {
   height: 200px;
   width: 200px;
   left: 50px;
+  top: -20px;
+  z-index: -1;
 }
 
 #roys {
   height: 500px;
   width: 750px;
-  left: 20%;
   top: 150px;
+  left: 20%;
+  /*top: 150px;*/
   z-index: -1;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5 {
   color: rgba(2, 5, 128, 0.7);
-
 }
 
 h1 {
@@ -146,7 +152,7 @@ h1 {
 h2 {
   font-size: 34px;
   text-align: center;
-  line-height: 12;
+  line-height: 800%;
   /*background-color: rgba(2, 5, 128, 0.7);*/
 }
 
@@ -168,9 +174,31 @@ h2 {
 img {
   background-color: white;
   position: relative;
-  left: 470px;
+  left: 50%;
   top: 50px;
-  z-index: -1;
+  z-index: 12;
+}
+
+h3, h4, h5, h6 {
+  text-align: center;
+  font-size: 28px;
+}
+
+p {
+  text-align: center;
+}
+
+h3 {
+  top: -100px;
+  line-height: 100%;
+}
+
+h4 {
+  line-height: 50px;
+}
+
+#about {
+  background-color: #fafafa;
 }
 
 .top {
@@ -180,6 +208,7 @@ img {
   padding: -30px;
   color: #fff;
   left: 200px;
+  z-index: 80;
 }
 
 

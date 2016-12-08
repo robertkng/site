@@ -37,6 +37,16 @@ const SI=setInterval(function() {
           }
   });
 
+   const portfolio = $('#portfolio');
+
+  portfolio.on('click', function(e) {
+    $('html, body').animate({
+      scrollTop: 800
+    }, 300);
+    e.preventDefault();
+  });
+
+
   // const wScroll = $(this).scrollTop();
 
   // if(wScroll > $('.clothes-pics').offset().top - ($(window).height() / 1.2)) {
@@ -50,15 +60,5 @@ const SI=setInterval(function() {
 
 
 
-  //   let portfolio = $('#portfolio');
-
-  // portfolio.on('click', function(e) {
-  //   $('html, body').animate({
-  //     portfolio: 1000
-  //   }, 300);
-  //   e.preventDefault();
-  // });
-
 
 });
-  // });

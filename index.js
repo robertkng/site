@@ -1,4 +1,19 @@
-$(document).ready(function() {
+  $(function(){
+// 🌎
+
+const str="Robert Ng === Full Stack Web Developer + Commodity Trader + World Traveler;"
+const split = str.split("");
+let counter = 0;
+
+const SI=setInterval(function() {
+  const h1 = $('#type');
+
+  h1.append(split[counter]);
+  counter++;
+  if(counter==str.length){clearInterval(SI)}
+}, 100)
+
+
   const scrollUp = $('.top');
 
   scrollUp.on('click', function(e) {
@@ -35,7 +50,7 @@ $(document).ready(function() {
 
 
 
-  //   var portfolio = $('#portfolio');
+  //   let portfolio = $('#portfolio');
 
   // portfolio.on('click', function(e) {
   //   $('html, body').animate({
@@ -46,3 +61,4 @@ $(document).ready(function() {
 
 
 });
+  // });

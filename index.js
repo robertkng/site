@@ -22,16 +22,16 @@ $(document).ready(function() {
           }
   });
 
-  const wScroll = $(this).scrollTop();
+  // const wScroll = $(this).scrollTop();
 
-  if(wScroll > $('.clothes-pics').offset().top - ($(window).height() / 1.2)) {
-    $('.clothes-pics figure').each(function(i) {
+  // if(wScroll > $('.clothes-pics').offset().top - ($(window).height() / 1.2)) {
+  //   $('.clothes-pics figure').each(function(i) {
 
-      setTimeout(function() {
-      $('.clothes-pics figure').eq(i).addClass('is-showing');
-      }, 300 * (i+1));
-    });
-  }
+  //     setTimeout(function() {
+  //     $('.clothes-pics figure').eq(i).addClass('is-showing');
+  //     }, 300 * (i+1));
+  //   });
+  // }
 
 
 

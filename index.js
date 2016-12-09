@@ -13,6 +13,29 @@ const SI=setInterval(function() {
   if(counter==str.length){clearInterval(SI)}
 }, 100)
 
+//mouseover project 1 and text will
+// const individual ="Player dodges wrench. Tech: JQuery, DOM, and collision detection"
+// const divide = individual.split("");
+// let count = 0;
+
+// $('#individual-typing').on('mouseover', function() {
+//   // const h1 = $('#individual-typing');
+
+//   $('#individual-typing').append(split[counter]);
+//   count++;
+//   if(count==str.length){clearInterval(hover)}
+// }, 100)
+
+
+ const portfolio = $('#portfolio');
+
+  portfolio.on('click', function(e) {
+    $('html, body').animate({
+      scrollTop: 800
+    }, 300);
+    e.preventDefault();
+  });
+
 
   const scrollUp = $('.top');
 
@@ -37,14 +60,7 @@ const SI=setInterval(function() {
           }
   });
 
-   const portfolio = $('#portfolio');
 
-  portfolio.on('click', function(e) {
-    $('html, body').animate({
-      scrollTop: 800
-    }, 300);
-    e.preventDefault();
-  });
 
 
   // const wScroll = $(this).scrollTop();

@@ -151,6 +151,35 @@ li a:hover {
   z-index: -1;
 }
 
+#project4-tool {
+    width: 300px;
+    height: 300px;
+}
+
+#project4-tool #project4-box {
+    left: 20px;
+}
+
+#project4-tool #project4-box {
+    visibility: hidden;
+    width: 300px;
+    height: 170px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    left: 20px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1000;
+}
+
+#project4-tool:hover #project4-box {
+    visibility: visible;
+}
+
 h1 {
   color: #fafafa;
 }

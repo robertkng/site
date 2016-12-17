@@ -93,6 +93,11 @@ li a:hover {
   z-index: -1;
 }
 
+.individual-projects {
+  display: flex;
+  flex-direction: row;
+}
+
 .individual-projects a {
   height: 200px;
   width: 200px;
@@ -112,7 +117,7 @@ li a:hover {
 #project2 {
   height: 200px;
   width: 200px;
-  left: -170px;
+  left: -120px;
   top: 40px;
   z-index: -1;
 }
@@ -147,13 +152,7 @@ li a:hover {
   width: 750px;
   top: 150px;
   left: 20%;
-  /*top: 150px;*/
   z-index: -1;
-}
-
-#project4-tool {
-    width: 300px;
-    height: 300px;
 }
 
 #project4-tool #project4-box {
@@ -169,7 +168,8 @@ li a:hover {
     text-align: left;
     border-radius: 6px;
     padding: 10px;
-    left: 20px;
+    left: 18px;
+    top: 1140px;
 
     /* Position the tooltip */
     position: absolute;
@@ -177,6 +177,56 @@ li a:hover {
 }
 
 #project4-tool:hover #project4-box {
+    visibility: visible;
+}
+
+#project2-tool #project2-box {
+    left: 20px;
+}
+
+#project2-tool #project2-box {
+    visibility: hidden;
+    width: 300px;
+    height: 170px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    left: 247px;
+    top: 1140px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1000;
+}
+
+#project2-tool:hover #project2-box {
+    visibility: visible;
+}
+
+#project1-tool #project1-box {
+    left: 20px;
+}
+
+#project1-tool #project1-box {
+    visibility: hidden;
+    width: 300px;
+    height: 170px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    left: 540px;
+    top: 1140px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1000;
+}
+
+#project1-tool:hover #project1-box {
     visibility: visible;
 }
 

@@ -4,6 +4,10 @@ html {
   font-family: 'Ubuntu', sans-serif;
 }
 
+#type {
+  font-size: 20px;
+}
+
 #nav {
   position: fixed;
   background-color: rgb(6, 35, 81);

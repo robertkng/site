@@ -5,7 +5,7 @@ html {
 }
 
 #type {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 #nav {
@@ -46,18 +46,18 @@ li a:hover {
 }
 
 #github {
-  left: 630px;
+  left: 830px;
   top: 10px;
   z-index: 49;
 }
 
 #linkedin {
-  left: 700px;
+  left: 900px;
   top: 10px;
 }
 
 #gmail {
-  left: 770px;
+  left: 970px;
   top: 10px;
 }
 
@@ -113,7 +113,7 @@ li a:hover {
 #project4 {
   height: 200px;
   width: 200px;
-  left: -175px;
+  left: -25px;
   top: 40px;
   z-index: -1;
 }
@@ -121,7 +121,7 @@ li a:hover {
 #project2 {
   height: 200px;
   width: 200px;
-  left: -120px;
+  left: 30px;
   top: 40px;
   z-index: -1;
 }
@@ -129,7 +129,7 @@ li a:hover {
 #project1 {
   height: 200px;
   width: 200px;
-  left: -55px;
+  left: 95px;
   top: 40px;
   z-index: -1;
 }
@@ -137,7 +137,7 @@ li a:hover {
 #project3 {
   height: 200px;
   width: 200px;
-  left: -175px;
+  left: -25px;
   top: -40px;
   z-index: -1;
 }
@@ -172,7 +172,7 @@ li a:hover {
     text-align: left;
     border-radius: 6px;
     padding: 10px;
-    left: 18px;
+    left: 130px;
     top: 1140px;
 
     /* Position the tooltip */
@@ -197,7 +197,7 @@ li a:hover {
     text-align: left;
     border-radius: 6px;
     padding: 10px;
-    left: 263px;
+    left: 410px;
     top: 1140px;
 
     /* Position the tooltip */
@@ -222,7 +222,7 @@ li a:hover {
     text-align: left;
     border-radius: 6px;
     padding: 10px;
-    left: 540px;
+    left: 690px;
     top: 1140px;
 
     /* Position the tooltip */
@@ -243,7 +243,7 @@ li a:hover {
 }
 
 #project3-tool #project3-box {
-    visibility: hidden;
+    /*visibility: hidden;*/
     width: 500px;
     height: 170px;
     background-color: black;
@@ -251,7 +251,7 @@ li a:hover {
     text-align: left;
     border-radius: 6px;
     padding: 10px;
-    left: 240px;
+    left: 394px;
     top: 1480px;
 
     /* Position the tooltip */

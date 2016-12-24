@@ -2,6 +2,7 @@ html {
   background-color: white;
   font-family: Copperplate;
   font-family: 'Ubuntu', sans-serif;
+  overflow-x: hidden;
 }
 
 #type-header {
@@ -50,7 +51,7 @@ li, a {
 }
 
 li a:hover {
-  color: red;
+  color: rgb(242, 29, 29);
   font-size: 34px;
   transition-duration: 1s;
   z-index: 5;
@@ -365,7 +366,7 @@ h4 {
   background-color: #fafafa;
 }
 
-#footer {
+#footer, h6 {
 /*  position: fixed;
   background-color: rgb(6, 35, 81);
   opacity: 1;
@@ -376,11 +377,19 @@ h4 {
   margin: 0;
   padding: 0;
   z-index: 99;*/
+  color: #fafafa;
+  background-color: rgb(57, 64, 76);
+  width: 103%;
+  margin-left: -1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
 }
+
 
 .top {
   display: none;
-  top: 610px;
+  top: 572px;
   background-color: cornflowerblue;
   padding: -30px;
   color: #fff;

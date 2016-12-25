@@ -336,6 +336,19 @@ li a:hover {
     visibility: visible;
 }
 
+#confucius {
+  text-align: right;
+  margin-right: 24%;
+  margin-top: 3%;
+}
+
+#quote {
+  color: rgba(2, 5, 128, 0.7);
+  font-size: 23px;
+  line-height: 300%;
+}
+
+
 
 h2, h3, h4, h5 {
   color: rgba(2, 5, 128, 0.7);

@@ -85,16 +85,19 @@ li a:hover {
 #github {
   left: 860px;
   top: 10px;
+  background-color: transparent!important;
 }
 
 #linkedin {
   left: 930px;
   top: 10px;
+  background-color: transparent!important;
 }
 
 #gmail {
   left: 1000px;
   top: 10px;
+  background-color: transparent!important;
 }
 
 .icon-github {
@@ -104,6 +107,10 @@ li a:hover {
   border-radius: 30%;
   padding: 5px;
   transform: translateZ(0);
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+
 
 }
 
@@ -117,6 +124,7 @@ li a:hover {
 }
 
 .icon-linkedin {
+  position: ;
   top: 30px;
   height: 50px;
   width: 50px;
@@ -146,17 +154,34 @@ li a:hover {
   border-radius: 30%;
   padding: 5px;
   transform: translateZ(0);
-
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
 }
 
 .icon-gmail:hover {
   animation: bounceInUp;
   z-index: 149;
-  animation-duration: .6s;
-  animation-timing-function: 3s;
+  animation-duration: 2s;
+  animation-timing-function: 10s;
   animation-iteration-count: infinite;
   box-shadow: 6px 21px 30px 0px rgba(0,0,0,0.75);
 }
+
+/*#down-arrow {
+  padding-top: 400px;
+  padding-left: 177px;
+  height: 50px;
+  width: 50px;
+  transform: perspective(1px) translateZ(0);
+  background-color: transparent!important;
+  animation: bounceInUp;
+  z-index: 149;
+  animation-duration: 3s;
+  animation-timing-function: 5s;
+  animation-iteration-count: infinite;
+}*/
 
 #petra {
   height: 750px;
@@ -540,6 +565,7 @@ h3, h4, h5, h6 {
 
 p {
   text-align: center;
+  width: 70%;
 }
 
 h3 {
@@ -549,6 +575,11 @@ h3 {
 
 h4 {
   line-height: 50px;
+  width: 70%;
+}
+
+h5 {
+  width: 70%;
 }
 
 #about {
@@ -575,6 +606,9 @@ h4 {
   left: 10px;
   z-index: 80;
 }
+
+
+
 
 /*@media query*/
 

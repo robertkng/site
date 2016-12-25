@@ -339,7 +339,7 @@ h2 {
 img {
   background-color: white;
   position: relative;
-  left: 50%;
+  left: 24%;
   top: 50px;
   z-index: 12;
 }
@@ -381,8 +381,8 @@ h4 {
   background-color: rgb(57, 64, 76);
   width: 103%;
   margin-left: -1%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: .01%;
+  padding-bottom: .01%;
 
 }
 
@@ -396,8 +396,6 @@ h4 {
   left: 10px;
   z-index: 80;
 }
-
-
 
 /*@media query*/
 

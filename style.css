@@ -19,13 +19,6 @@ html {
   text-align: left;
 }
 
-/*h1 {
-  font-size: 22px;
-  top: 170px;
-  color: rgb(6, 35, 81);
-  text-align: center;
-}*/
-
 #nav {
   position: fixed;
   background-color: rgb(6, 35, 81);
@@ -183,12 +176,25 @@ li a:hover {
   animation-iteration-count: infinite;
 }*/
 
-#petra {
+/*#petra {
   height: 750px;
   width: 500px;
   left: 30%;
   top: 150px;
   z-index: -1;
+}*/
+
+h2, h3, h4, h5 {
+  color: rgba(2, 5, 128, 0.7);
+}
+
+h2 {
+  font-size: 34px;
+  text-align: center;
+  line-height: 400%;
+  width: 76%;
+  border-top: 2px solid rgb(2, 5, 128);
+  border-bottom: 4px solid rgb(2, 5, 128);
 }
 
 .project-section {
@@ -209,45 +215,36 @@ li a:hover {
 }
 
 #project4 {
-  height: 200px;
-  width: 200px;
-  left: -25px;
-  top: 40px;
-  z-index: -1;
-}
-
-#project2 {
-  height: 200px;
-  width: 200px;
-  left: 30px;
-  top: 40px;
-  z-index: -1;
-}
-
-#project1 {
-  height: 200px;
-  width: 200px;
-  left: 95px;
-  top: 40px;
+  height: 58%;
+  width: 65%;
+  left: 14%;
+  margin-top: 12%;
   z-index: -1;
 }
 
 #project3 {
-  height: 200px;
-  width: 200px;
-  left: -25px;
-  top: -40px;
+  height: 100%;
+  width: 66%;
+  left: 13%;
+  margin-top: 12%;
   z-index: -1;
 }
 
-.group-projects a {
-  height: 200px;
-  width: 200px;
-  z-index: 7;
-  position: relative;
-  top: 50px;
+#project2 {
+  height: 50%;
+  width: 71%;
+  left: 10%;
+  margin-top: 12%;
+  z-index: -1;
 }
 
+#project1 {
+  height: 50%;
+  width: 66%;
+  left: 14%;
+  margin-top: 12%;
+  z-index: -1;
+}
 
 #roys {
   height: 700px;
@@ -257,108 +254,44 @@ li a:hover {
   z-index: -1;
 }
 
-#project4-tool #project4-box {
-    left: 20px;
+.individual-projects {
+  display: flex;
+  flex-direction: column;
 }
 
-#project4-tool #project4-box {
-    visibility: hidden;
+#project4-tool, #project3-tool, #project2-tool, #project1-tool {
+    left: 20px;
+    border-bottom: 4px solid rgb(2, 5, 128);
+    width: 76%;
+}
+
+#project4-box, #project3-box, #project2-box, #project1-box {
+    font-size: 18px;
     width: 300px;
     height: 223px;
-    background-color: black;
-    color: #fff;
+    color: black;
     text-align: left;
-    border-radius: 6px;
-    padding: 10px;
-    left: 130px;
-    top: 1140px;
+    left: 1%;
 
     /* Position the tooltip */
     position: absolute;
     z-index: 1000;
 }
 
-#project4-tool:hover #project4-box {
-    visibility: visible;
+#project4-box {
+  top: 300%;
 }
 
-#project2-tool #project2-box {
-    left: 20px;
+#project3-box {
+  top: 444%;
 }
 
-#project2-tool #project2-box {
-    visibility: hidden;
-    width: 300px;
-    height: 223px;
-    background-color: black;
-    color: #fff;
-    text-align: left;
-    border-radius: 6px;
-    padding: 10px;
-    left: 410px;
-    top: 1140px;
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1000;
+#project2-box {
+  top: 654%;
 }
 
-#project2-tool:hover #project2-box {
-    visibility: visible;
-}
-
-#project1-tool #project1-box {
-    left: 20px;
-}
-
-#project1-tool #project1-box {
-    visibility: hidden;
-    width: 300px;
-    height: 223px;
-    background-color: black;
-    color: #fff;
-    text-align: left;
-    border-radius: 6px;
-    padding: 10px;
-    left: 690px;
-    top: 1140px;
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1000;
-}
-
-#project1-tool:hover #project1-box {
-    visibility: visible;
-}
-
-#project3-tool {
-  width: 235px;
-}
-
-#project3-tool #project3-box {
-    left: 20px;
-}
-
-#project3-tool #project3-box {
-    visibility: hidden;
-    width: 500px;
-    height: 223px;
-    background-color: black;
-    color: #fff;
-    text-align: left;
-    border-radius: 6px;
-    padding: 10px;
-    left: 394px;
-    top: 1480px;
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1000;
-}
-
-#project3-tool:hover #project3-box {
-    visibility: visible;
+#project1-box {
+  top: 789%;
 }
 
 #confucius {
@@ -371,19 +304,6 @@ li a:hover {
   color: rgba(2, 5, 128, 0.7);
   font-size: 23px;
   line-height: 300%;
-}
-
-
-
-h2, h3, h4, h5 {
-  color: rgba(2, 5, 128, 0.7);
-}
-
-h2 {
-  font-size: 34px;
-  text-align: center;
-  line-height: 800%;
-  /*background-color: rgba(2, 5, 128, 0.7);*/
 }
 
 @keyframes shake {
@@ -558,7 +478,7 @@ img {
   z-index: 12;
 }
 
-h3, h4, h5, h6 {
+h4, h5, h6 {
   text-align: center;
   font-size: 28px;
 }
@@ -569,8 +489,7 @@ p {
 }
 
 h3 {
-  top: -100px;
-  line-height: 100%;
+  margin-left: 43%;
 }
 
 h4 {
@@ -580,6 +499,13 @@ h4 {
 
 h5 {
   width: 70%;
+}
+
+#description {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  line-height: 239%;
 }
 
 #about {
@@ -595,7 +521,6 @@ h5 {
   padding-bottom: .01%;
 
 }
-
 
 .top {
   display: none;

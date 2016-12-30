@@ -16,7 +16,7 @@ html {
 }
 
 #type {
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 7%;
   margin-left: 1%;
   color: rgb(6, 35, 81);
@@ -262,38 +262,48 @@ h2 {
 }
 
 #project4-tool, #project3-tool, #project2-tool, #project1-tool {
-    left: 20px;
-    border-bottom: 4px solid rgb(2, 5, 128);
-    width: 107%;
+  left: 20px;
+  border-bottom: 4px solid rgb(2, 5, 128);
+  width: 107%;
 }
 
 #project4-box, #project3-box, #project2-box, #project1-box {
-    font-size: 18px;
-    width: 300px;
-    height: 223px;
-    color: black;
-    text-align: left;
-    left: 1%;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  width: 300px;
+  height: 223px;
+  color: black;
+  text-align: left;
+  left: 1%;
 
-    /* Position the tooltip */
-    position: absolute;
-    z-index: -1000;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: -1000;
 }
 
 #project4-box {
-  top: 169%;
+  margin-top: -54%;
+  /*padding-top: -54%;*/
 }
 
 #project3-box {
-  top: 252%;
+  margin-top: -76%;
 }
 
 #project2-box {
-  top: 375%;
+  margin-top: -50%;
 }
 
 #project1-box {
-  top: 451%;
+  margin-top: -67%;
+}
+
+#description {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Tahoma, Geneva, sans-serif;
+  line-height: 10%;
 }
 
 #confucius {
@@ -501,13 +511,6 @@ h4 {
 
 h5 {
   width: 99%;
-}
-
-#description {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Tahoma, Geneva, sans-serif;
-  line-height: 239%;
 }
 
 #about {

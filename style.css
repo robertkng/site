@@ -5,8 +5,7 @@
 
 html {
   background-color: white;
-  font-family: Copperplate;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   overflow-x: hidden;
 }
 
@@ -282,19 +281,19 @@ h2 {
 }
 
 #project4-box {
-  top: 205%;
+  top: 169%;
 }
 
 #project3-box {
-  top: 274%;
+  top: 252%;
 }
 
 #project2-box {
-  top: 400%;
+  top: 375%;
 }
 
 #project1-box {
-  top: 485%;
+  top: 451%;
 }
 
 #confucius {
@@ -507,7 +506,7 @@ h5 {
 #description {
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Oswald', sans-serif;
+  font-family: Tahoma, Geneva, sans-serif;
   line-height: 239%;
 }
 

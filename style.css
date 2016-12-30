@@ -283,32 +283,19 @@ h2 {
 }
 
 #project4-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-top: -54%;
-  /*padding-top: -54%;*/
+  margin-top: -2%;
 }
 
 #project3-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-top: -76%;
+  margin-top: -2%;
 }
 
 #project2-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-top: -50%;
+  margin-top: -2%;
 }
 
 #project1-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-top: -67%;
+  margin-top: -2%;
 }
 
 #description {

@@ -301,7 +301,6 @@ h2 {
 #description {
   font-size: 20px;
   font-weight: bold;
-  font-family: Tahoma, Geneva, sans-serif;
   line-height: 10%;
 }
 
@@ -543,6 +542,6 @@ h6 {
   background-color: cornflowerblue;
   padding: -30px;
   color: #fff;
-  left: 10px;
+  left: 80%;
   z-index: 80;
 }

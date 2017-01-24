@@ -4,7 +4,7 @@
 
 
 
-const str="Robert Ng === NERD (Node, Express, React, Database) Stack Developer + Commodity Trader + World Traveler;"
+const str="Robert Ng === Front End Developer + World Traveler;"
 const split = str.split("");
 let counter = 0;
 

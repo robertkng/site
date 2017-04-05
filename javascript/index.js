@@ -1,10 +1,7 @@
   $(function(){
 // 🌎
 
-
-
-
-const str="Robert Ng === Front End Developer + World Traveler;"
+const str="Robert Ng === Software Engineer + World Traveler;"
 const split = str.split("");
 let counter = 0;
 
@@ -14,20 +11,6 @@ const SI=setInterval(function() {
   counter++;
   if(counter==str.length){clearInterval(SI)}
 }, 100)
-
-//mouseover project 1 and text will
-// const individual ="Player dodges wrench. Tech: JQuery, DOM, and collision detection"
-// const divide = individual.split("");
-// let count = 0;
-
-// $('#individual-typing').on('mouseover', function() {
-//   // const h1 = $('#individual-typing');
-
-//   $('#individual-typing').append(split[counter]);
-//   count++;
-//   if(count==str.length){clearInterval(hover)}
-// }, 100)
-
 
 const portfolio = $('#portfolio');
 portfolio.on('click', function(e) {
@@ -58,22 +41,4 @@ $(window).on('scroll', function() {
     scrollUp.hide();
   }
 });
-
-
-
-
-  // const wScroll = $(this).scrollTop();
-
-  // if(wScroll > $('.clothes-pics').offset().top - ($(window).height() / 1.2)) {
-  //   $('.clothes-pics figure').each(function(i) {
-
-  //     setTimeout(function() {
-  //     $('.clothes-pics figure').eq(i).addClass('is-showing');
-  //     }, 300 * (i+1));
-  //   });
-  // }
-
-
-
-
 });

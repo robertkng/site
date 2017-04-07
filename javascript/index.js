@@ -1,7 +1,7 @@
   $(function(){
 // 🌎
 
-const str="Robert Ng === Software Engineer + World Traveler;"
+const str="Robert Ng === Software Engineer;"
 const split = str.split("");
 let counter = 0;
 
